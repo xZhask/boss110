@@ -12,6 +12,9 @@ body{
 h2{
     color: #2272FF;
     margin-bottom: 7px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 1px 0 3px #2272FF;
 }
 button{
     background-color: transparent;
