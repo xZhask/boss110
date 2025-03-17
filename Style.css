@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+body{
+    background-color: #1d1d1d;
+}
+h2{
+    color: #2272FF;
+    margin-bottom: 7px;
+}
+button{
+    background-color: transparent;
+    color: rgba(255, 255, 255, .7);
+    border: 1px solid rgba(255, 255, 255, .3);
+    padding: 5px;
+    width: 40px;
+    cursor: pointer;
+}
+button:hover{
+    color: #000;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+button.active{
+    border: 1px solid rgba(34, 114, 255,0.7);
+    color:  rgba(34, 114, 255,0.7);
+    font-weight: bold;
+}
+.cont_boss{
+    padding: 10px 30px;
+}
+.cont_list ul{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    max-width: 200px;
+    list-style: none;
+    color:  rgba(34, 114, 255,0.8);
+    border: 1px solid rgba(34, 114, 255,0.3);
+}
+.cont_list ul li{
+    padding: 2px;
+}
+.main_cont{
+    margin-top: 50px;
+}
+/*
+azul oscuro clásico (#0A1828), turquesa (#178582), dorado (#BFA181)
+*/
